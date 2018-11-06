@@ -102,7 +102,7 @@ void 				get_bonus(t_ship* ship) {
 				ship->weapon->damage += 5;
 			}
 			else if (!my_strcmp(ship->cont->first->item, my_strdup("evadebonus"))) {
-				my_putstr("evade +5\n");
+				my_putstr("evade +3\n");
 				ship->nav->evade += 3;
 			}
 			else if (!my_strcmp(ship->cont->first->item, my_strdup("energy"))) {
